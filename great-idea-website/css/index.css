@@ -72,11 +72,10 @@ section, header, p, h2, a, h1, img, address, small, nav {
 
 /* General Styling */
 .container {
-	max-width: 1000px;
+	width: 90%;
 	margin: 0 auto;
 	padding: 25px;
 }
-
 /* Header Styling */
 header {
 	width: 100%;
@@ -93,7 +92,7 @@ header nav a {
 	display: inline-block;
 	line-height: 30px;
 	margin: 10px 2.5%;
-	color: #aaa;
+	color: #999;
 	text-decoration: none;
 }
 header nav a:hover {
@@ -105,3 +104,77 @@ header img {
 }
 
 /* Splash Screen Styling */
+.splash {
+	display: block;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #000;
+}
+.splash div {
+	width: 60%;
+	display: inline-block;
+	padding: 50px 0 0;
+	float: left;
+}
+.splash div h1 {
+	text-align: center;
+	font-size: 75px;
+}
+.splash div h2 {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.splash div h2 a {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	color: #000;
+	text-decoration: none;
+	border: 1px solid #000;
+	padding: 5px 30px;
+}
+.splash div h2 a:hover {
+	background-color: #eee;
+}
+.splash img {
+	width: 39%;
+	height: auto;
+	display: inline-block;
+}
+
+/* Features Section */
+.col-1-2 {
+	width: 50%;
+	float: left;
+}
+
+/* Banner Image */
+.banner img {
+	width: 100%;
+	display: block;
+	padding-top: 40px;
+}
+
+/* Services Section */
+.col-1-3 {
+	width: 32%;
+	float: left;
+	padding-top: 30px;
+	margin-right: 2%;
+}
+.col-1-3:last-child {
+	margin-right: 0;
+}
+
+/* Footer */
+footer {
+	padding: 20px 0 0;
+	margin: 200px auto 0;
+	border-top: 1px solid #000;
+}
+small {
+	display: block;
+	text-align: center;
+	margin: 20px 0;
+}
