@@ -74,16 +74,20 @@ section, header, p, h2, a, h1, img, address, small, nav {
 .container {
 	width: 90%;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 0 25px 25px;
 }
 /* Header Styling */
 header {
 	width: 100%;
-	height: 50px;
-	margin-bottom: 50px;
+	height: 80px;
+	display: block;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #999;
 }
 header nav {
-	height: 50px;
+	height: 80px;
 	width: 74.5%;
 	display: inline-block;
 	float: left;
@@ -91,22 +95,23 @@ header nav {
 header nav a {
 	display: inline-block;
 	line-height: 30px;
-	margin: 10px 2.5%;
-	color: #999;
+	margin: 25px 2.5%;
+	color: #000;
 	text-decoration: none;
 }
 header nav a:hover {
-	color: #333;
+	color: #EEE;
 }
 header img {
 	width: 25%;
 	display: inline-block;
+	margin: 15px 0;
 }
 
 /* Splash Screen Styling */
 .splash {
 	display: block;
-	padding-bottom: 50px;
+	padding: 50px 0;
 	margin-bottom: 40px;
 	border-bottom: 2px solid #000;
 }
